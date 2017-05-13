@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     }
     }
     
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         demoLabel.text = "作者:@coderwhy 话题:#Label字符串识别# 网址:http://www.520it.com"
     }
 }
